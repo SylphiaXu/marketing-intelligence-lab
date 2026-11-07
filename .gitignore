@@ -1,0 +1,18 @@
+# Local data and generated outputs
+data/raw/
+data/processed/
+data/private/
+outputs/
+*.parquet
+*.sqlite
+*.db
+# Secrets and local environments
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
